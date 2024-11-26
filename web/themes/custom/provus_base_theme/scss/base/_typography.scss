@@ -37,7 +37,6 @@
 @mixin text-style-headline-h-1() {
   font-family: $font-heading;
   font-style: normal;
-  font-family: Inter;
   font-size: 40px;
   font-weight: 600;
   line-height: 48px;
@@ -272,7 +271,7 @@
 
 
 @mixin text-style-breadcrumbs() {
-  font-family: Inter;
+  font-family: $font-body;
   font-size: 14px;
   font-style: normal;
   font-weight: 600;
@@ -280,7 +279,7 @@
 }
 
 @mixin text-style-testimonial-name() {
-  font-family: Inter;
+  font-family: $font-body;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;

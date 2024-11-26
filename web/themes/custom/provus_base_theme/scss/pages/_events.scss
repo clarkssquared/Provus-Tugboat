@@ -65,7 +65,7 @@
         color: $text-secondary;
         &::before {
           color: $secondary-shade;
-          font-family: "Font Awesome 5 Free";
+          font-family: $font-fontawesome;
           font-weight: 900;
           font-size: rem-calc(20);
           content: "\f017";

@@ -76,7 +76,7 @@
 }
 
 @mixin button-icon() {
-  font-family: 'Font Awesome 5 Free';
+  font-family: $font-fontawesome;
   padding-right: $padding-padding-xxs;
   font-size: $padding-padding-md;
   font-style: normal;
