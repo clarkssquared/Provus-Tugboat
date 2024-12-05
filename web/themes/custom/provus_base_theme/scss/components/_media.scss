@@ -10,7 +10,55 @@
 
   img {
     width: 100%;
-    border-radius: 4px;
+    border-radius: $images-border-radius-radius-md;
+  }
+
+  &.border-radius {
+    &-xxxs {
+      img {
+        border-radius: $images-border-radius-radius-xxxs;
+      }
+    }
+    &-xxs {
+      img {
+        border-radius: $images-border-radius-radius-xxs;
+      }
+    }
+    &-xs {
+      img {
+        border-radius: $images-border-radius-radius-xs;
+      }
+    }
+    &-sm {
+      img {
+        border-radius: $images-border-radius-radius-sm;
+      }
+    }
+    &-md {
+      img {
+        border-radius: $images-border-radius-radius-md;
+      }
+    }
+    &-lg {
+      img {
+        border-radius: $images-border-radius-radius-lg;
+      }
+    }
+    &-xl {
+      img {
+        border-radius: $images-border-radius-radius-xl;
+      }
+    }
+    &-xxl {
+      img {
+        border-radius: $images-border-radius-radius-xxl;
+      }
+    }
+    &-xxxl {
+      img {
+        border-radius: $images-border-radius-radius-xxl;
+      }
+    }
   }
 
   .field--name-field-provus-alt-text, .field--name-field-provus-media-style {

@@ -6,10 +6,40 @@
 .card {
   @include box-drop-shadow;
   background: $white;
-  border-radius: $radius-radius-xxs;
+  border-radius: $cards-border-radius-radius-md;
   border: none;
   display: flex;
   height: 100%;
+
+  &-border-radius {
+    &-xxxs {
+      border-radius: $cards-border-radius-radius-xxxs;
+    }
+    &-xxs {
+      border-radius: $cards-border-radius-radius-xxs;
+    }
+    &-xs {
+      border-radius: $cards-border-radius-radius-xs;
+    }
+    &-sm {
+      border-radius: $cards-border-radius-radius-sm;
+    }
+    &-md {
+      border-radius: $cards-border-radius-radius-md;
+    }
+    &-lg {
+      border-radius: $cards-border-radius-radius-lg;
+    }
+    &-xl {
+      border-radius: $cards-border-radius-radius-xl;
+    }
+    &-xxl {
+      border-radius: $cards-border-radius-radius-xxl;
+    }
+    &-xxxl {
+      border-radius: $cards-border-radius-radius-xxxl;
+    }
+  }
 
   h2, h3, h4, h5, h6, p {
     margin: 0;

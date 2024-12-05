@@ -7,18 +7,19 @@
 
 // Top nav provus styles
 #navbar-top {
-  background: $primary-accent;
+  background: $header-utility-menu-background;
+  color: $header-utility-menu-text;
   padding: .5rem 1rem;
   > .container {
     justify-content: flex-end;
   }
   .nav-link {
-    color: $text-contrast;
+    color: $header-utility-menu-link;
     font-size: rem-calc(14);
     text-decoration: none;
     &:hover,
     &:focus {
-      color: $text-contrast;
+      color: $header-utility-menu-link-hover;
       text-decoration: underline;
     }
   }
@@ -26,12 +27,6 @@
     .field--name-field-provus-links {
       display: flex;
       gap: rem-calc(30);
-      a {
-        color: $white;
-        &:hover {
-          color: $primary;
-        }
-      }
     }
   }
 }
@@ -91,7 +86,7 @@
 
 // Provus Menu
 #navbar-main {
-  background: $white;
+  background: $header-navigation-background;
   box-shadow: inset 0px -1.0369px 0px #E5E7EB;
   padding: $padding-padding-xxs 0;
   .navbar-toggler {
@@ -118,7 +113,13 @@
         border-bottom: 1px solid $primary-accent;
       }
       a.nav-link {
-        padding: rem-calc(20 0);
+        padding: $header-navigation-link-spacing;
+        color: $header-navigation-link;
+        font-size: $header-nav-menu-links-size;
+        &:hover,
+        &:focus {
+          color: $header-navigation-link-hover;
+        }
         @include media-breakpoint-down(lg) {
           padding: rem-calc(15 0);
           display: inline-block;

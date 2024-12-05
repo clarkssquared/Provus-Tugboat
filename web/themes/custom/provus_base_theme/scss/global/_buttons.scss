@@ -1,77 +1,102 @@
 // Button styles.
 @mixin button-primary() {
-  background: $primary;
-  color: $white;
-  border-color: $primary ;
-  height: rem-calc(48);
+  background: $button-primary-background;
+  color: $button-primary-text;
+  border-color: $button-primary-background;
   display: inline-flex;
   justify-content: center;
   align-items: center;
   &:hover {
-    box-shadow: 0 0 0 3px transparentize($color: $primary, $amount: 0.5);
-    background: $primary-hover;
+    box-shadow: 0 0 0 3px transparentize($color: $button-primary-background-hover, $amount: 0.5);
+    background: $button-primary-background-hover;
     text-decoration: none;
-    color: $white;
+    color: $button-primary-text-hover;
   }
   &:focus {
-    box-shadow: 0 0 0 3px transparentize($color: $primary, $amount: 0.5);
-    background: $primary-hover;
+    box-shadow: 0 0 0 3px transparentize($color: $button-primary-background-hover, $amount: 0.5);
+    background: $button-primary-background-hover;
     text-decoration: none;
-    color: $white;
+    color: $button-primary-text-hover;
   }
   &:active {
-    box-shadow: 0 0 0 3px transparentize($color: $primary, $amount: 0.5);
-    background: $primary-colors-primary-accent !important;
-    color: $white !important;
+    box-shadow: 0 0 0 3px transparentize($color: $button-primary-background-hover, $amount: 0.5);
+    background: $button-primary-background-hover;
+    color: $button-primary-text-hover;
     text-decoration: none;
     border-color: transparent;
   }
 }
 
 @mixin button-secondary() {
-  background: $secondary;
-  color: $white;
-  border-color: $secondary;
-  height: rem-calc(48);
+  background: $button-secondary-background;
+  color: $button-secondary-text;
+  border-color: $button-secondary-background;
   display: inline-flex;
   justify-content: center;
   align-items: center;
   &:hover,
   &:focus {
-    box-shadow: 0 0 0 3px transparentize($color: $secondary, $amount: 0.5);
-    background: $secondary-hover;
-    border-color: $secondary-hover;
+    box-shadow: 0 0 0 3px transparentize($color: $button-secondary-background-hover, $amount: 0.5);
+    background: $button-secondary-background-hover;
+    border-color: $button-secondary-background-hover;
     text-decoration: none;
-    color: $white;
+    color: $button-secondary-text-hover;
   }
   &:focus {
-    box-shadow: 0 0 0 3px transparentize($color: $secondary, $amount: 0.5);
-    color: $white;
+    box-shadow: 0 0 0 3px transparentize($color: $button-secondary-background-hover, $amount: 0.5);
+    color: $button-secondary-text-hover;
+    background: $button-secondary-background-hover;
     text-decoration: none;
   }
   &:active {
-    box-shadow: 0 0 0 3px transparentize($color: $secondary, $amount: 0.5);
-    background: $secondary-colors-secondary-contrast !important;
-    color: $white !important;
+    box-shadow: 0 0 0 3px transparentize($color: $button-secondary-background-hover, $amount: 0.5);
+    background: $button-secondary-background-hover;
+    color: $button-secondary-text-hover;
+    text-decoration: none;
+    border-color: transparent;
+  }
+}
+
+@mixin button-default() {
+  background: $button-default-background;
+  color: $button-default-text;
+  border-color: $button-default-background;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  &:hover {
+    box-shadow: 0 0 0 3px transparentize($color: $button-default-background-hover, $amount: 0.5);
+    background: $button-default-background-hover;
+    text-decoration: none;
+    color: $button-default-text-hover;
+  }
+  &:focus {
+    box-shadow: 0 0 0 3px transparentize($color: $button-default-background-hover, $amount: 0.5);
+    background: $button-default-background-hover;
+    text-decoration: none;
+    color: $button-default-text-hover;
+  }
+  &:active {
+    box-shadow: 0 0 0 3px transparentize($color: $button-default-background-hover, $amount: 0.5);
+    background: $button-default-background-hover;
+    color: $button-default-text-hover;
     text-decoration: none;
     border-color: transparent;
   }
 }
 
 @mixin button-outlined() {
-  background: $white;
-  color: $text-primary !important;
-  border-color: $secondary;
-  height: rem-calc(48);
+  background: $button-outline-background;
+  color: $button-outline-text;
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid var(--border-light, #E7E8E9);
+  border: 1px solid $button-outline-border;
   &:hover,
   &:focus {
-    background: $secondary-contrast;
-    border: 1px solid var(--border-dark, #D9DBDD);
-    color: $primary-colors-primary-contrast !important;
+    background: $button-outline-background-hover;
+    border: 1px solid $button-outline-border-hover;
+    color: $button-outline-text-hover;
   }
 }
 
@@ -86,82 +111,110 @@
   height: 100%;
 }
 
+/* Button sizes */
+@mixin text-style-button-xxsmall() {
+  font-size: rem-calc(10);
+  line-height: rem-calc(10);
+  letter-spacing: rem-calc(0.04);
+  border-radius: $button-border-radius-radius-xxs;
+  padding: $padding-padding-xxs;
+}
+@mixin text-style-button-xsmall() {
+  font-size: rem-calc(12);
+  line-height: rem-calc(12);
+  letter-spacing: rem-calc(0.04);
+  border-radius: $button-border-radius-radius-xs;
+  padding: $padding-padding-xs;
+}
+@mixin text-style-button-small() {
+  font-size: rem-calc(13);
+  line-height: rem-calc(12);
+  letter-spacing: rem-calc(0.04);
+  border-radius: $button-border-radius-radius-sm;
+  padding: $padding-padding-sm;
+}
+@mixin text-style-button-medium() {
+  font-size: rem-calc(16);
+  line-height: rem-calc(16);
+  letter-spacing: rem-calc(-0.13);
+  border-radius: $button-border-radius-radius-mg;
+  padding: $padding-padding-md;
+}
+@mixin text-style-button-large() {  
+  line-height: rem-calc(24);
+  letter-spacing: rem-calc(-0.18);
+  padding: $padding-padding-lg;
+  border-radius: $button-border-radius-radius-lg;
+}
+@mixin text-style-button-xlarge() {  
+  line-height: rem-calc(28);
+  letter-spacing: rem-calc(-0.20);
+  padding: $padding-padding-xlg;
+  border-radius: $button-border-radius-radius-xl;
+}
+@mixin text-style-button-xxlarge() {  
+  line-height: rem-calc(32);
+  letter-spacing: rem-calc(-0.24);
+  border-radius: $button-border-radius-radius-xxl;
+  padding: $padding-padding-xxlg;
+}
+
 // Global buttons styling.
 .btn, .btn.form-control {
   border-radius: $radius-radius-xs;
   padding: $padding-padding-xs;
   font-size: 1rem;
+  font-family: $font-body;
+  font-style: normal;
   line-height: 1rem;
-  font-weight: 600;
+  font-weight: 700;
   text-decoration: none;
+  text-transform: none;
+  @include text-style-button-medium();
   @include effect-style-elevation-xs();
+
   &:hover,
   &:focus {
     text-decoration: underline;
   }
-  &-medium {
-    padding: rem-calc(10);
+  &-xxsmall {
+    @include text-style-button-xxsmall();
+  }
+  &-xsmall {
+    @include text-style-button-xsmall();
   }
   &-small {
-    padding: rem-calc(6);
+    @include text-style-button-small();
   }
-  &-default-sm {
-    @include button-primary;
-    @include text-style-button-small;
-    padding: $padding-padding-xxs;
+  &-medium {
+    @include text-style-button-medium();
   }
-
-  &-default-md {
-    @include text-style-button-medium;
-    @include button-primary;
-    padding: $padding-padding-xs;
+  &-large {
+    @include text-style-button-large();
+  }
+  &-xlarge {
+    @include text-style-button-xlarge();
+  }
+  &-xxlarge {
+    @include text-style-button-xxlarge();
   }
 
   &-default {
-    @include button-primary;
-    padding: $padding-padding-xs;
-    @include text-style-button-large();
-  }
-
-  &-primary-sm {
-    @include text-style-button-small;
-    padding: $padding-padding-xxs;
-    @include button-primary;
-  }
-
-  &-primary-md {
-    @include text-style-button-medium;
-    padding: $padding-padding-xs;
-    @include button-primary;
+    @include button-default;    
   }
 
   &-primary {
     @include button-primary;
-    padding: $padding-padding-xs;
-    @include text-style-button-large();
-  }
-
-  &-secondary-sm {
-    @include text-style-button-small;
-    padding: $padding-padding-xxs;
-    @include button-secondary;
-  }
-
-  &-secondary-md {
-    @include text-style-button-medium;
-    padding: $padding-padding-xs;
-    @include button-secondary;
   }
 
   &-secondary {
     @include button-secondary;
-    padding: $padding-padding-xs;
-    @include text-style-button-large();
   }
 
   &-outlined {
     @include button-outlined;
   }
+
   &.form-control {
     width: auto;
     display: inline-block;
@@ -173,29 +226,6 @@
 
   i {
     @include button-icon();
-  }
-}
-
-.btn-outline {
-  &-primary {
-    color: $primary;
-    border-color: $primary;
-    &:hover,
-    &:focus {
-      background: $primary;
-      color: $white;
-      border-color: $primary;
-    }
-  }
-  &-secondary {
-    color: $secondary;
-    border-color: $secondary;
-    &:hover,
-    &:focus {
-      background: $secondary;
-      color: $white;
-      border-color: $secondary;
-    }
   }
 }
 
@@ -237,74 +267,8 @@
         margin-right: $padding-padding-sm;
         margin-bottom: $padding-padding-xs;
         a {
-          color: $primary-colors-primary;
-          text-decoration: none;
-          @include text-style-button-large();
-          &:hover {
-            color: $system-info-medium;
-          }
-          &:active {
-            color: $primary-colors-primary-accent;
-          }
-          &:focus {
-            color: $primary-colors-primary-hover;
-          }
-
           i {
             @include button-icon();
-          }
-
-           &.btn {
-            &-default-sm {
-              @include button-primary;
-              @include text-style-button-small;
-              padding: $padding-padding-xxs;
-            }
-
-            &-default-md {
-              @include text-style-button-medium;
-              @include button-primary;
-              padding: $padding-padding-xs;
-            }
-
-            &-default {
-              @include button-primary;
-              padding: $padding-padding-xs;
-            }
-
-            &-primary-sm {
-              @include text-style-button-small;
-              padding: $padding-padding-xxs;
-              @include button-primary;
-            }
-
-            &-primary-md {
-              @include text-style-button-medium;
-              padding: $padding-padding-xs;
-              @include button-primary;
-            }
-
-            &-primary {
-              @include button-primary;
-              padding: $padding-padding-xs;
-            }
-
-            &-secondary-sm {
-              @include text-style-button-small;
-              padding: $padding-padding-xxs;
-              @include button-secondary;
-            }
-
-            &-secondary-md {
-              @include text-style-button-medium;
-              padding: $padding-padding-xs;
-              @include button-secondary;
-            }
-
-            &-secondary {
-              @include button-secondary;
-              padding: $padding-padding-xs;
-            }
           }
         }
       }
@@ -316,75 +280,9 @@
       flex-direction: column;
       .field__item {
         margin-bottom: $padding-padding-md;
-        a {
-          color: $primary-colors-primary;
-          text-decoration: none;
-          @include text-style-button-large();
-          &:hover {
-            color: $system-info-medium;
-          }
-          &:focus {
-            color: $primary-hover;
-          }
-          &:active {
-            color: $primary-colors-primary-accent;
-          }
-
+        a {        
           i {
             @include button-icon();
-          }
-
-          &.btn {
-            &-default-sm {
-              @include button-primary;
-              @include text-style-button-small;
-              padding: $padding-padding-xxs;
-            }
-
-            &-default-md {
-              @include text-style-button-medium;
-              @include button-primary;
-              padding: $padding-padding-xs;
-            }
-
-            &-default {
-              @include button-primary;
-              padding: $padding-padding-xs;
-            }
-
-            &-primary-sm {
-              @include text-style-button-small;
-              padding: $padding-padding-xxs;
-              @include button-primary;
-            }
-
-            &-primary-md {
-              @include text-style-button-medium;
-              padding: $padding-padding-xs;
-              @include button-primary;
-            }
-
-            &-primary {
-              @include button-primary;
-              padding: $padding-padding-xs;
-            }
-
-            &-secondary-sm {
-              @include text-style-button-small;
-              padding: $padding-padding-xxs;
-              @include button-secondary;
-            }
-
-            &-secondary-md {
-              @include text-style-button-medium;
-              padding: $padding-padding-xs;
-              @include button-secondary;
-            }
-
-            &-secondary {
-              @include button-secondary;
-              padding: $padding-padding-xs;
-            }
           }
         }
       }

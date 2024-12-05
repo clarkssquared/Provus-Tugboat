@@ -1,11 +1,13 @@
-/* VARIABLES */
-
-/* Colors Variables Export */
+/* Variable export */
+/* Mode 1 */
+/* color */
 $background-colors-background-grey: #d6d6d6;
 $background-colors-background-light: #fbfbfc;
 $background-colors-background-lightblue: #eff6ff;
 $background-colors-background-lightteal: #e7f6f9;
 $background-colors-background-white: #ffffff;
+$gradient-primary-gradient: #2baec6;
+$gradient-primary-gradient-2: #094fc2;
 $primary-colors-primary: #2563eb;
 $primary-colors-primary-accent: #1c2b54;
 $primary-colors-primary-contrast: #ffffff;
@@ -35,6 +37,90 @@ $text-colors-text-contrast: #ffffff;
 $text-colors-text-hint: #747474;
 $text-colors-text-primary: #2c2e30;
 $text-colors-text-secondary: #646f79;
+/* Mode 1 */
+/* number */
+$button-border-radius-radius-xxs: 0rem;
+$button-border-radius-radius-xs: 0.25rem;
+$button-border-radius-radius-sm: 0.5rem;
+$button-border-radius-radius-mg: 0.75rem;
+$button-border-radius-radius-lg: 1rem;
+$button-border-radius-radius-xl: 1.25rem;
+$button-border-radius-radius-xxl: 2.5rem;
+$cards-border-radius-radius-xxxs: 0rem;
+$cards-border-radius-radius-xxs: 0.25rem;
+$cards-border-radius-radius-xs: 0.5rem;
+$cards-border-radius-radius-sm: 1rem;
+$cards-border-radius-radius-md: 1.25rem;
+$cards-border-radius-radius-lg: 1.5rem;
+$cards-border-radius-radius-xl: 2rem;
+$cards-border-radius-radius-xxl: 2.5rem;
+$cards-border-radius-radius-xxxl: 6.25rem;
+$images-border-radius-radius-xxxs: 0rem;
+$images-border-radius-radius-xxs: 0.25rem;
+$images-border-radius-radius-xs: 0.5rem;
+$images-border-radius-radius-sm: 0.75rem;
+$images-border-radius-radius-md: 1rem;
+$images-border-radius-radius-lg: 1.25rem;
+$images-border-radius-radius-xl: 2rem;
+$images-border-radius-radius-xxl: 2.5rem;
+$images-border-radius-radius-xxxl: 62.4375rem;
+$padding-padding-xxxs: 0.25rem;
+$padding-padding-xxs: 0.5rem;
+$padding-padding-xs: 0.75rem;
+$padding-padding-sm: 1rem;
+$padding-padding-md: 1.25rem;
+$padding-padding-lg: 1.5rem;
+$padding-padding-xlg: 2rem;
+$padding-padding-xxlg: 2.5rem;
+$radius-radius-xxxs: 0rem;
+$radius-radius-xxs: 0.25rem;
+$radius-radius-xs: 0.5rem;
+$radius-radius-sm: 1rem;
+$radius-radius-md: 1.25rem;
+$radius-radius-lg: 1.5rem;
+$radius-radius-xl: 2rem;
+$radius-radius-xxl: 2.5rem;
+$radius-radius-xxxl: 6.25rem;
+/* Mode 1 */
+/* color */
+$button-border-focus-state: #e7f6f9;
+$button-default-background: #2563eb;
+$button-default-background-hover: #114cae;
+$button-default-text: #ffffff;
+$button-default-text-hover: #ffffff;
+$button-outline-background: #ffffff;
+$button-outline-background-hover: #fbfbfc;
+$button-outline-border: #d6d6d6;
+$button-outline-border-hover: #d6d6d6;
+$button-outline-text: #2c2e30;
+$button-outline-text-hover: #2c2e30;
+$button-primary-background: #2563eb;
+$button-primary-background-hover: #114cae;
+$button-primary-text: #ffffff;
+$button-primary-text-hover: #ffffff;
+$button-secondary-background: #008299;
+$button-secondary-background-hover: #045f70;
+$button-secondary-text: #ffffff;
+$button-secondary-text-hover: #ffffff;
+$button-transparent-text: #2563eb;
+$button-transparent-text-hover: #114cae;
+$footer-background: #eff6ff;
+$footer-link: #646f79;
+$footer-link-hover: #1c2b54;
+$footer-text: #1c2b54;
+$header-navigation-background: #ffffff;
+$header-navigation-link: #2c2e30;
+$header-navigation-link-hover: #2563eb;
+$header-utility-menu-background: #114cae;
+$header-utility-menu-link: #ffffff;
+$header-utility-menu-link-hover: #e5fbff;
+$header-utility-menu-text: #ffffff;
+/* number */
+$footer-link-font-size: 0.875rem;
+$footer-text-size: 0.875rem;
+$footer-text-headlines-size: 1.125rem;
+$header-nav-menu-links-size: 1rem;
+$header-navigation-link-spacing: 2.5rem;
 
 // Fonts
 @import url('https://fonts.googleapis.com/css?family=Inter:100,200,300,400,500,600,700,800,900&display=swap');
@@ -174,23 +260,7 @@ $container-max-widths: (
   xxl: 1568px
 );
 
-$padding-padding-xxxs: 4px;
-$padding-padding-xxs: 8px;
-$padding-padding-xs: 12px;
-$padding-padding-sm: 16px;
-$padding-padding-md: 20px;
-$padding-padding-lg: 24px;
-$padding-padding-xlg: 32px;
-$padding-padding-xxlg: 40px;
 $padding-padding-xxxlg: 64px;
-$radius-radius-xxxs: 0px;
-$radius-radius-xxs: 4px;
-$radius-radius-xs: 8px;
-$radius-radius-sm: 16px;
-$radius-radius-md: 20px;
-$radius-radius-lg: 24px;
-$radius-radius-xl: 32px;
-$radius-radius-xxl: 40px;
 $radius-radius-xxxl: 100px;
 
 // Pagination

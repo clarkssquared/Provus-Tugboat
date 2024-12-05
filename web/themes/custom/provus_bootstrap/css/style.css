@@ -5,6 +5,13 @@ Description: Bootstrap 4 with Sass
 */
 /* VARIABLES */
 /* Colors Variables Export */
+/* Mode 1 */
+/* color */
+/* Mode 1 */
+/* number */
+/* Mode 1 */
+/* color */
+/* number */
 @import url("https://fonts.googleapis.com/css?family=Inter:100,200,300,400,500,600,700,800,900&display=swap");
 /*!
  * Bootstrap  v5.3.3 (https://getbootstrap.com/)
@@ -15995,7 +16002,7 @@ textarea.form-control-lg {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #404758;
+  color: #ffffff;
 }
 
 .cart-block--contents {
@@ -19543,22 +19550,22 @@ body.js-off-canvas-dialog-open::after {
 }
 .btn-primary, .layout-builder-active .button--primary, .btn.form-control-primary, .layout-builder-active .form-control-primary#edit-discard-changes, .layout-builder-active .form-control-primary#edit-revert {
   background: #2563eb;
-  color: white;
+  color: #ffffff;
   border-color: #2563eb;
 }
 .btn-primary:hover, .layout-builder-active .button--primary:hover, .btn-primary:focus, .layout-builder-active .button--primary:focus, .btn.form-control-primary:hover, .layout-builder-active .form-control-primary#edit-discard-changes:hover, .layout-builder-active .form-control-primary#edit-revert:hover, .btn.form-control-primary:focus, .layout-builder-active .form-control-primary#edit-discard-changes:focus, .layout-builder-active .form-control-primary#edit-revert:focus {
   background: #114cae;
-  color: white;
+  color: #ffffff;
   border-color: #114cae;
 }
 .btn-secondary, .layout-builder-active #edit-discard-changes, .btn.form-control-secondary, .layout-builder-active .form-control-secondary.button--primary, .layout-builder-active .form-control-secondary#edit-revert {
   background: #008299;
-  color: white;
+  color: #ffffff;
   border-color: #008299;
 }
 .btn-secondary:hover, .layout-builder-active #edit-discard-changes:hover, .btn-secondary:focus, .layout-builder-active #edit-discard-changes:focus, .btn.form-control-secondary:hover, .layout-builder-active .form-control-secondary.button--primary:hover, .layout-builder-active .form-control-secondary#edit-revert:hover, .btn.form-control-secondary:focus, .layout-builder-active .form-control-secondary.button--primary:focus, .layout-builder-active .form-control-secondary#edit-revert:focus {
   background: #045f70;
-  color: white;
+  color: #ffffff;
   border-color: #045f70;
 }
 .btn-outlined, .btn.form-control-outlined, .layout-builder-active .form-control-outlined.button--primary, .layout-builder-active .form-control-outlined#edit-discard-changes, .layout-builder-active .form-control-outlined#edit-revert {
@@ -19568,7 +19575,7 @@ body.js-off-canvas-dialog-open::after {
   border: 1px solid var(--border-light, #E7E8E9);
 }
 .btn-outlined:hover, .btn-outlined:focus, .btn.form-control-outlined:hover, .layout-builder-active .form-control-outlined.button--primary:hover, .layout-builder-active .form-control-outlined#edit-discard-changes:hover, .layout-builder-active .form-control-outlined#edit-revert:hover, .btn.form-control-outlined:focus, .layout-builder-active .form-control-outlined.button--primary:focus, .layout-builder-active .form-control-outlined#edit-discard-changes:focus, .layout-builder-active .form-control-outlined#edit-revert:focus {
-  background: #404758;
+  background: #ffffff;
   border: 1px solid var(--border-dark, #D9DBDD);
   color: #2c2e30;
 }
