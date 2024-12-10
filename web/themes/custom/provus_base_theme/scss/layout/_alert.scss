@@ -33,7 +33,7 @@
     border-color: $primary;
     &::before {
       color: $white;
-      font-family: "Font Awesome 5 Free";
+      font-family: $font-fontawesome;
       font-size: $font-size-base;
       content: "\f05a";
       background: none;
@@ -48,7 +48,7 @@
     border-color: $secondary-shade;
     &::before {
       color: $white;
-      font-family: "Font Awesome 5 Free";
+      font-family: $font-fontawesome;
       font-size: $font-size-base;
       content: "\f05a";
       background: none;
@@ -63,7 +63,7 @@
     border-color: $success-primary;
     &::before {
       color: $white;
-      font-family: "Font Awesome 5 Free";
+      font-family: $font-fontawesome;
       font-size: $font-size-base;
       content: "\f058";
       background: none;
@@ -78,7 +78,7 @@
     border-color: $error-primary;
     &::before {
       color: $white;
-      font-family: "Font Awesome 5 Free";
+      font-family: $font-fontawesome;
       font-size: $font-size-base;
       content: "\f071";
       background: none;
@@ -93,7 +93,7 @@
     border-color: $warning-primary;
     &::before {
       color: $text-primary;
-      font-family: "Font Awesome 5 Free";
+      font-family: $font-fontawesome;
       font-size: $font-size-base;
       content: "\f0f3";
       background: none;
@@ -108,7 +108,7 @@
     border-color: $system-primary;
     &::before {
       color: $black;
-      font-family: "Font Awesome 5 Free";
+      font-family: $font-fontawesome;
       font-size: $font-size-base;
       content: "\f05a";
       background: none;
@@ -123,7 +123,7 @@
     border-color: $text-primary;
     &::before {
       color: $text-colors-body-color;
-      font-family: "Font Awesome 5 Free";
+      font-family: $font-fontawesome;
       font-size: $font-size-base;
       content: "\f05a";
       background: none;
@@ -138,7 +138,7 @@
     border-color: $text-primary;
     &::before {
       color: $white;
-      font-family: "Font Awesome 5 Free";
+      font-family: $font-fontawesome;
       font-size: $font-size-base;
       content: "\f05a";
       background: none;

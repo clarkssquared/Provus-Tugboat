@@ -19,7 +19,7 @@
       position: relative;
       margin-bottom: 0 !important;
       &::before {
-        font-family: "Font Awesome 5 Free";
+        font-family: $font-fontawesome;
         font-weight: 900;
         font-size: 14px;
         color: $text-secondary;
