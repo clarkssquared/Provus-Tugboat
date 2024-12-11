@@ -3,13 +3,13 @@ status: true
 dependencies:
   config:
     - block_content.type.provus_slideshow_item
-    - field.storage.block_content.field_provus_title
-id: block_content.provus_slideshow_item.field_provus_title
-field_name: field_provus_title
+    - field.storage.block_content.field_provus_slide_title
+id: block_content.provus_slideshow_item.field_provus_slide_title
+field_name: field_provus_slide_title
 entity_type: block_content
 bundle: provus_slideshow_item
 label: Title
-description: ''
+description: 'This title field has an 80-word limit.'
 required: false
 translatable: true
 default_value: {  }
