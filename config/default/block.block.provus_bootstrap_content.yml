@@ -1,0 +1,22 @@
+uuid: f37cf150-6c9b-4d08-89c3-3439ad2862c7
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - provus_base_theme
+_core:
+  default_config_hash: sMNJHSNjrdu5ubmCPr9z87H8ui7FpDgepo7fSFCnuU8
+id: provus_bootstrap_content
+theme: provus_base_theme
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

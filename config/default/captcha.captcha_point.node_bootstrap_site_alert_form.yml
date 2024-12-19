@@ -1,0 +1,7 @@
+uuid: 09263b4f-bd25-45cb-91f0-c9f69a2f8fc5
+langcode: en
+status: false
+dependencies: {  }
+formId: node_bootstrap_site_alert_form
+captchaType: default
+label: node_bootstrap_site_alert_form

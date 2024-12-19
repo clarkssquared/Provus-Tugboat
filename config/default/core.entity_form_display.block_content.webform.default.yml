@@ -1,0 +1,45 @@
+uuid: a7744af1-1240-4b04-9fa4-6b548f8dd2a9
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.webform
+    - field.field.block_content.webform.field_title
+    - field.field.block_content.webform.field_webform
+  module:
+    - webform
+_core:
+  default_config_hash: Wd3sw-QL7KKNo9r1yROYdk3bNTMVTemINOl7oTcKEOw
+id: block_content.webform.default
+targetEntityType: block_content
+bundle: webform
+mode: default
+content:
+  field_title:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_webform:
+    type: webform_entity_reference_autocomplete
+    weight: 2
+    region: content
+    settings:
+      match_limit: 10
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+      default_data: true
+    third_party_settings: {  }
+  info:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

@@ -1,0 +1,21 @@
+uuid: a3b11531-1fa2-4626-bc1a-1587ba4e099b
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.provus_slideshow_item
+    - field.storage.block_content.field_provus_slide_title
+_core:
+  default_config_hash: W4k9mWliO2vWCCZOTMIFyIAYxf1cteZ5YuzTj65vdnw
+id: block_content.provus_slideshow_item.field_provus_slide_title
+field_name: field_provus_slide_title
+entity_type: block_content
+bundle: provus_slideshow_item
+label: Title
+description: 'This title field has an 80-word limit.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

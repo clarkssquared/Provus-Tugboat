@@ -1,0 +1,10 @@
+uuid: 50b7c794-c326-4223-a1c4-cf0cba168091
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: qMUdvdshe2I_uF69CObdBcjuhltEkVWPLFL6WfYKzGE
+id: provus_photo_gallery
+label: 'Photo Gallery'
+revision: 0
+description: ''

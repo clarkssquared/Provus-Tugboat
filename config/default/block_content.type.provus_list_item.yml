@@ -1,0 +1,10 @@
+uuid: 441bfb52-0f96-464a-8b8b-c9e31d7046bb
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Kf7qyf0MjCIvQCdZGMMd0wiCjpwoyMf0UOVtOxrPf9A
+id: provus_list_item
+label: 'List item'
+revision: 0
+description: ''

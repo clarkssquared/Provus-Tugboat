@@ -1,0 +1,26 @@
+uuid: e93b6b91-d985-4a94-90d7-d2b028897734
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.provus_person
+  module:
+    - text
+_core:
+  default_config_hash: jNKsotbf3hUyjCgeX70QIB2CAblbbR0tfjs_sHr09IA
+id: node.provus_person.body
+field_name: body
+entity_type: node
+bundle: provus_person
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary

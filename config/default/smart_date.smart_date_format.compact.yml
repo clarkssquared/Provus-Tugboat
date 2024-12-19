@@ -1,0 +1,17 @@
+uuid: 68f002c0-90ce-45fa-908c-61d5fbc6f22e
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 3k0ojgMLZae-f358WLWxfKYddQPSaQSnIdAKiYw2wnY
+id: compact
+label: Compact
+date_format: 'M j Y'
+time_format: 'g:ia'
+time_hour_format: ga
+allday_label: ''
+separator: ' - '
+join: ' | '
+ampm_reduce: '1'
+date_first: '1'
+site_time_toggle: '1'

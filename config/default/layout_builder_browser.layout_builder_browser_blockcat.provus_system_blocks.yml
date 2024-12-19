@@ -1,0 +1,12 @@
+uuid: adcdf761-d12a-4e24-ac3a-32a5604cfcdd
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Pap_xur-Wcy7R5226PJ_-7UxDh2Nvgl2jtC1XYqBNrc
+id: provus_system_blocks
+label: 'System Blocks'
+weight: -6
+opened: true
+image_path: null
+image_alt: null

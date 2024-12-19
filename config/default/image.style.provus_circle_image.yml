@@ -1,0 +1,20 @@
+uuid: 403bd722-b892-4088-ba89-d910e3b3042e
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+_core:
+  default_config_hash: 3o8SQ35UatlIgIjN6WzqWKuH5JDWxVjg5eKpqdx2gWE
+name: provus_circle_image
+label: 'Provus Circle Image'
+effects:
+  bf0fb14d-3563-436d-b77c-a42a13107a34:
+    uuid: bf0fb14d-3563-436d-b77c-a42a13107a34
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 400
+      height: 400
+      anchor: center-center
+      crop_type: focal_point

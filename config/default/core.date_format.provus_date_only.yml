@@ -1,0 +1,10 @@
+uuid: 9f7162bf-4ffe-4a68-a927-e200782ba325
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Kv1qQjYlQChVfsCo9gR2XMMkKbGozAXnSQfRK0Kv7N4
+id: provus_date_only
+label: 'Date only'
+locked: false
+pattern: d

@@ -1,0 +1,10 @@
+uuid: 80e45df8-8a21-426e-a049-b613d8d07689
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Njnjb4NLBGCLoVy0MxMXLnPbm9G2sXWSQhPvBhEi3z8
+id: provus_heading
+label: Heading
+revision: 0
+description: ''

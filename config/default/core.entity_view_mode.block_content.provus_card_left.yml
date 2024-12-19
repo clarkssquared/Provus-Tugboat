@@ -1,0 +1,13 @@
+uuid: 4e62e961-b6b9-48f3-9121-38d23642e046
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+_core:
+  default_config_hash: 8KQ4hQZRIOmw3pgrMkIbqNGmG3uXpBXEh5lUBIdnSpM
+id: block_content.provus_card_left
+label: 'Card Image Left'
+description: ''
+targetEntityType: block_content
+cache: true

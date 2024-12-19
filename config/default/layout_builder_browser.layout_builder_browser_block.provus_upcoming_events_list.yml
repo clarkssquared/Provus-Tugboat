@@ -1,0 +1,13 @@
+uuid: 4cf69877-1707-49ff-b7b5-e69f218fc349
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: rr7hpUHA66pdKWbGKrW8-K4XAIo1dVgERlxjnmA-zvk
+id: provus_upcoming_events_list
+block_id: 'views_block:provus_events-block_events_upcoming'
+category: provus_views
+label: 'Upcoming Events List'
+weight: 50
+image_path: /themes/custom/provus_base_theme/images/components/Upcoming-Events-List.svg
+image_alt: ''

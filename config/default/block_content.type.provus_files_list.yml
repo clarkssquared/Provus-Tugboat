@@ -1,0 +1,10 @@
+uuid: 71612a9b-ec75-4777-9a69-6bc682f02289
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: '-E9Hq7cmGXRAIYgBc25tFijkL9oLb6FCfV6sXhM06CA'
+id: provus_files_list
+label: 'Files List'
+revision: 0
+description: ''

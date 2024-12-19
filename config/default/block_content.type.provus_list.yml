@@ -1,0 +1,10 @@
+uuid: 5bcac920-b96f-4c59-bec1-4779a93891fc
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Sq1q1Wzz5lqMy7a5kVU3zA_ZleyjKwkZCGWK80-_Qjg
+id: provus_list
+label: List
+revision: 0
+description: ''

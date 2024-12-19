@@ -1,0 +1,21 @@
+uuid: d67b5e47-ee3e-4b5b-a5c6-3adc90df638b
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - fontawesome
+_core:
+  default_config_hash: KBFiyLXIAXp-7Wvy4_yYbXjrYld3tD9hwtobfRczouY
+id: block_content.field_provus_icon
+field_name: field_provus_icon
+entity_type: block_content
+type: fontawesome_icon
+settings: {  }
+module: fontawesome
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

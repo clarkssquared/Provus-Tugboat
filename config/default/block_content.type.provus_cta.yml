@@ -1,0 +1,10 @@
+uuid: 6db0dd15-2f68-4e6e-844a-44fad874e190
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: SJ_vzQdZaX2JA46nWscrBOhiHBb6dRfoWpRQUAuwwGw
+id: provus_cta
+label: CTA
+revision: 0
+description: ''

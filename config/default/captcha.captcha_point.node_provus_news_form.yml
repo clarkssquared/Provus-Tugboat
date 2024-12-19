@@ -1,0 +1,7 @@
+uuid: 779edb90-aa16-44d1-9781-cee211e8904b
+langcode: en
+status: false
+dependencies: {  }
+formId: node_provus_news_form
+captchaType: default
+label: node_provus_news_form

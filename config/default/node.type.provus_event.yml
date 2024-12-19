@@ -1,0 +1,19 @@
+uuid: b8795c53-1f16-4225-89c7-14ef2fdb6508
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+_core:
+  default_config_hash: udUa4FaFbtLTGi6uYKOZf8o67RGCyB1eIGQhBaEmkEk
+name: Event
+type: provus_event
+description: null
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: false

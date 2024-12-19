@@ -1,0 +1,22 @@
+uuid: c5e26c26-9a5b-4c2c-b065-beab37b537ba
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - provus_base_theme
+_core:
+  default_config_hash: n_B1aXRC4JxBe1Nn3HHvTZg5s9yHrqeV7wQLBWdf6kM
+id: provus_bootstrap_help
+theme: provus_base_theme
+region: title
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

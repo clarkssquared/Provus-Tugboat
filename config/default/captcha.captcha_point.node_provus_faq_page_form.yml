@@ -1,0 +1,7 @@
+uuid: d86d43dc-6798-4dcd-9a56-01ca1a879d84
+langcode: en
+status: false
+dependencies: {  }
+formId: node_provus_faq_page_form
+captchaType: default
+label: node_provus_faq_page_form

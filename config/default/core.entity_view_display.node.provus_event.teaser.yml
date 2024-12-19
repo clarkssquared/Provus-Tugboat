@@ -1,0 +1,38 @@
+uuid: 8f25330e-7d83-4a92-9f1f-41c858c11432
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.provus_event.body
+    - field.field.node.provus_event.field_metatag
+    - field.field.node.provus_event.field_provus_smartdate
+    - node.type.provus_event
+  module:
+    - text
+    - user
+_core:
+  default_config_hash: 77wLNoZaCZLe7CmPpZkyv94cZW8y48VC9HdxZyY4ZaI
+id: node.provus_event.teaser
+targetEntityType: node
+bundle: provus_event
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  addtoany: true
+  field_metatag: true
+  field_provus_smartdate: true
+  search_api_excerpt: true

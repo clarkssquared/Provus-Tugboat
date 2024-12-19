@@ -1,0 +1,12 @@
+uuid: 7a326e2b-7e91-43b2-b2de-70ee4297d47f
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: z12DEQtS-V8TzklJWbMVeMVWPNLX5M5bGALeVCRPA2E
+id: provus_complex_content
+label: 'Complex Content'
+weight: -9
+opened: true
+image_path: null
+image_alt: null

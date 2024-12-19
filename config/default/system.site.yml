@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: DvEA7qDrbIK2mfmKIFerzdW9yNPa7y4zwQUKTNSVVVs
+name: 'Drush Site-Install'
+mail: admin@example.com
+slogan: 'Drupal kickstarter by Promet Source'
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+uuid: 28421d6e-0599-42fc-8415-b2d04620f8ba
+langcode: en
+default_langcode: en

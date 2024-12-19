@@ -1,0 +1,10 @@
+uuid: 3824e33f-a180-4048-bc22-49ce5e14bda8
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: hMJoIqw3auGX5Wy1a-7KITpzINE5g-ILuXBOVdtXbWo
+id: provus_faq_group
+label: 'FAQ Group'
+revision: 0
+description: ''

@@ -1,0 +1,12 @@
+uuid: 58a71f20-d10e-4479-8ef5-a4ba53709213
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: j5Yj_1mk5Vko9v85BwDJcBet8rkUdseI301vR7JHTyo
+id: provus_simple_content
+label: 'Simple Content'
+weight: -10
+opened: true
+image_path: null
+image_alt: null

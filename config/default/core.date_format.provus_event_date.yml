@@ -1,0 +1,10 @@
+uuid: 44d6c094-db3d-4478-9fbd-a8a0905cc604
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: DalZ4NfLiqW6ZV26B8jICNN5FcYydW5BfqR4rSBLUSE
+id: provus_event_date
+label: 'Event date'
+locked: false
+pattern: 'F d, Y'

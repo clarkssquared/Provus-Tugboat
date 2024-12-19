@@ -1,0 +1,10 @@
+uuid: 015dcf21-6ba8-42ca-8f93-4b4f0121f379
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 4ep3ifdql-nZM1ojUEgSZTmXYAl92yZ82LDPi0mYnmw
+id: provus_banner
+label: Banner
+revision: 0
+description: ''
